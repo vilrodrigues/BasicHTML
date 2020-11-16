@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Título do site</title>
+  <meta charset="utf-8">
+  </head>
+  <body>
+ <h1>forms</h1>
+ 
+ <form>
+   first name: <input type="text" name="firstname"><br>
+   Last name: <input type="text" name="firstname"><hr>
+</form>
+<form>
+  Password: <input type="password" name="pwd"><hr>
+</form>
+<form>
+  <input type="radio" name="sex" value="male">Male<br>
+  <input type="radio" name="sex" value="female">Female<hr>
+</form>
+<form>
+  <input type="checkbox" name="vehicle[]" value="Bike"> Vou de bike<br>
+  <input type="checkbox" name="vehicle[]" value="Car"> Vou de carro <hr>
+</form>
+<form name="input" action="html_form_action.asp" method="get">
+  Arquivo: <input type="file" name="arquivo"><hr>
+</form>
+<form>
+  <input type="number" name="quantity" min="1" max="5"><hr>
+</form>
+<form>
+  <input type="date" name="bday1"><hr>
+
+</form>
+<form>
+  <input type="range" name="points" min="0" max='10'><hr>
+</form>
+<form>
+  <input type="color" name="favcolor"><hr>
+</form>
+<form>
+  <input type="email" name="email"><hr>
+</form>
+<form>
+  <input type="url" name="homepage"><hr>
+</form>
+<form name="input" action="html_form_action.asp" method="get">
+  Username: <input type="text" name="user">
+  <input type="submit" value="submit"><hr>
+</form>
+<textarea rows="4" cols="50" name="">
+ EAE
+</textarea><hr>
+<button type="button" name="">EAE</button><hr>
+<select>
+  <option name="" value="volvo">Volvo</option>
+  <option name="" value="Mercedes">Mercedes</option>
+</select>
+<select>
+  <optgroup label="Grupo 1">
+    <option name="" value="Uno"> Uno</option>
+    <option name="" value="Gol"> Gol</option>
+  </optgroup>
+  <optgroup label="Grupo 2">
+    <option name="" value="Maverick">Maverick</option>
+    <option name="" value="Opala">Opala</option>
+</select><hr>
+
+<form>
+  <fieldset>
+    <legend>Dados:</legend>
+    Name:<input type="text"><br>
+    Email:<input type="text"><br>
+    Aniversário:<input type="text"><hr>
+  </fieldset>
+</form>
+<form action="demo_form.asp">
+  <label for="male">Male</label>
+  <input type="radio" name="sex" id="male" value="male"><br>
+  <label for="female">Female</label>
+  <input type="radio" name="sex" id="female" value="female"><br>
+  <input type="submit" value="Submit">
+</form>
+
+    </body>
+</html>
